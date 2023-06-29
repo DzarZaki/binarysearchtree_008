@@ -145,3 +145,13 @@ int main()
 			obj.insert(word); 
 			break;
 		}
+		case '2':
+		{
+			obj.inorder(obj.ROOT);
+			break;
+		}
+		case '3':
+		{
+			obj.preorder(obj.ROOT);
+			break;
+		}

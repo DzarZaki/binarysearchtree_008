@@ -70,3 +70,11 @@ public:
 
 		}
 	}
+
+	void inorder(Node* ptr)
+	{
+		if (ROOT == NULL)
+		{
+			cout << "Tree is empty" << endl;
+			return;
+		}

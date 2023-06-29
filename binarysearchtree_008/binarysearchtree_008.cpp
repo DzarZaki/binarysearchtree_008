@@ -9,4 +9,11 @@ public:
 	Node* leftchild;
 	Node* rifghtchild;
 
-	
+	// Constructor for the node class 
+	Node(string i, Node* l, Node* r)
+	{
+		info = i;
+		leftchild = l;
+		rifghtchild = r;
+	}
+};
